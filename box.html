@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pseudo classes</title>
+    <style>
+        .info {
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+            transition:2s;
+        }
+
+        body {
+            display: grid;
+            place-content: center;
+            min-height: 100vh;
+        }
+
+        /* selector:pseudo class */
+        .info:hover{
+            background-color: rgb(245, 93, 38);
+            transform: scale(1.1) rotate(360deg); 
+            border-radius: 50%;
+            cursor:pointer;
+        }
+        .info:active{
+            background-color: rgb(38, 245, 79);
+            transform: scale(0.9) rotate(-360deg);
+            border-radius: 25%;
+            cursor:pointer
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="info"></div>
+</body>
+
+</html>
