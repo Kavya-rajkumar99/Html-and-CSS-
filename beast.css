@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #170001, #2e1311, #482117, #603119, #754517);
+  }
+.movie-poster{
+    height:450px;
+    width:375px;
+    object-fit:cover;
+    border-radius:30px;
+}
+.movie-container{
+    width:375px;
+    text-align:center;
+}
+.movie-name{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size:38px;
+    font-weight:900;
+    margin:0px;
+}
+.movie-spec{
+    color: #A78584;
+    font-size:14px;
+    font-weight:300;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+
+}
+.movie-description{
+    color: #FFE5E4;
+    font-family: 'Poppins', sans-serif;
+    font-weight:200;
+}
+.dot{
+    color:#FFE5E4;
+}
