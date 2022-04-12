@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <style>
+        body{
+            background: linear-gradient(250deg, #7b2ff7, #f107a3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:65px;
+        }
+          .card{
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            margin-bottom:50px;
+            width:700px;
+            border-radius: 35px;
+            padding:20px;
+            align-items: center;
+            transition: 0.3s;
+         } 
+         .card:active{
+            flex-direction: column;
+            align-items: flex-start;
+            cursor:pointer;
+         }
+         .photo{
+             height:100px;
+             width:100px;
+             object-fit:contain;
+         }
+         .title{
+             font-size:30px;
+         }
+         .description{
+             font-size:18px;
+             font-family: sans-serif;
+             color:#00000099;
+         }
+         .content{
+           margin-left:20px; 
+         }
+         .story{
+             display:flex;
+             flex-direction:column;
+         }
+         </style>
+    </head>
+    <body>
+        <div class="story">
+       <div class = "card">
+           <div >
+                <img class = "photo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Stag.svg" alt="The Magnificent Stag">
+           </div>
+           <div class = "content">
+                 <h1 class = "title" style="color: rgb(209, 139, 73);">
+                   The Magnificent Stag
+                </h1>
+                <p class = "description">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+     nibh, ut fermentum massa justo sit amet risus.
+                </p>
+           </div>
+       </div>
+       <div class = "card">
+        <div >
+             <img class = "photo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Bear.svg" alt="The Courageous Bear">
+        </div>
+        <div class = "content">
+              <h1 class = "title" style="color: rgb(84, 47, 19);">
+                The Courageous Bear
+             </h1>
+             <p class = "description">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+    nibh, ut fermentum massa justo sit amet risus.
+             </p>
+        </div>
+    </div>
+    <div class = "card">
+        <div >
+             <img class = "photo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Mouse.svg" alt="The Sneaky Mouse">
+        </div>
+        <div class = "content">
+              <h1 class = "title" style="color:rgb(165, 170, 174);">
+                The Sneaky Mouse
+             </h1>
+             <p class = "description">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                nibh, ut fermentum massa justo sit amet risus.
+             </p>
+        </div>
+    </div>
+    <div class = "card">
+        <div >
+             <img class = "photo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Fox.svg" alt="The Cunning Fox">
+        </div>
+        <div class = "content">
+              <h1 class = "title" style="color: rgb(237, 141, 31);">
+                The Cunning Fox
+             </h1>
+             <p class = "description">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                nibh, ut fermentum massa justo sit amet risus.
+             </p>
+        </div>
+    </div>
+    <div class = "card">
+        <div>
+             <img class = "photo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Rabbit.svg" alt="The Jumpy Rabbit">
+        </div>
+        <div class = "content">
+            <h1 class = "title" style="color: rgb(196, 200, 203);">
+                The Jumpy Rabbit
+             </h1>
+             <p class = "description">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+     nibh, ut fermentum massa justo sit amet risus.
+             </p>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
